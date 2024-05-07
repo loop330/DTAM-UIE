@@ -2,7 +2,6 @@ import torch
 from data import dataset_UIEB_test
 from torchvision import transforms
 import torch.utils.data as Data
-from swin_unet_transformer import SwinTransformerSys
 from psnr_ssim import psnr_and_ssim
 def test_data_process():
     test_data = dataset_UIEB_test()

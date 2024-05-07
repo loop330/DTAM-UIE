@@ -4,7 +4,6 @@ from torchvision import models
 from loss.CL1 import L1_Charbonnier_loss
 from loss.SSIMLoss import SSIMLoss
 from loss.Perceptual import *
-from ssim_msssim import MS_SSIM
 class VGG_loss(nn.Module):
     def __init__(self, model):
         super(VGG_loss, self).__init__()

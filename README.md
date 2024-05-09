@@ -15,7 +15,7 @@ _ _ _**data**</br>
 &emsp; &emsp; &emsp; _ _ _ iamge</br>
 &emsp; &emsp; &emsp; _ _ _ reference</br></br>
 **Environmental requirements:**</br>
-- torch == 2.0.0
+- torch == 1.13
 - torchvision == 0.15.1
 - tqdm == 4.61.2
 - timm == 0.9.8
